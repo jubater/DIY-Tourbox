@@ -1,10 +1,10 @@
 ## DIY Tourbox 
 
-**DIY Tourbox** This project's target was to build a device like tourbox mainly focused for drawing , but all its features makes it a customizable, one-handed editing controlle. It replicates what TourBox and other macro software does.
+This project's target was to build a device like tourbox mainly focused for drawing , but all its features makes it a customizable, one-handed editing controlle. It replicates what TourBox and other macro software does.
 
 ## About
 
-Unlike many macro pads that emulate a HID (Human Interface Device) keyboard directly on the chip, **DIYTourBox** uses a Raw Data (i dnt know what its called) approach:
+Unlike many macro pads that emulate a HID (Human Interface Device) keyboard directly on the chip, **NotTourBox** uses a Raw Data (i dnt know what its called) approach:
 
  The Arduino  Acts as a raw input sensor. It constantly monitors the buttons and encoders. When an action occurs, it sends a simple string to the PC.
  The application listens to the Serial stream and Identifies which application is currently in focus, Looks up the assigned macro for that specific button and app, Simulates the keystrokes or mouse actions using the `pynput` library.
