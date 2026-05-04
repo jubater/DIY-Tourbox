@@ -2,12 +2,12 @@
 
 **Not Tourbox** is a Python application designed to interface with custom Arduino-based macro pads and controllers. It replicates what TourBox and other macro software does.
 
-## 🧠 System Architecture: "Hardware-to-Software" Logic
+## About
 
 Unlike many macro pads that emulate a HID (Human Interface Device) keyboard directly on the chip, **NotTourBox** uses a "Raw Data" approach:
 
-1. The Arduino  Acts as a raw input sensor. It constantly monitors the buttons and encoders. When an action occurs, it sends a simple string to the PC.
-2. The application listens to the Serial stream and
+ The Arduino  Acts as a raw input sensor. It constantly monitors the buttons and encoders. When an action occurs, it sends a simple string to the PC.
+ The application listens to the Serial stream and
    - Identifies which application is currently in focus.
    - Looks up the assigned macro for that specific button and app.
    - Simulates the keystrokes or mouse actions using the `pynput` library.
