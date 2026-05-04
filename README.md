@@ -2,6 +2,8 @@
 
 This project's target was to build a device like tourbox mainly focused for drawing , but all its features makes it a customizable, one-handed editing controlle. It replicates what TourBox and other macro software does.
 
+[Download](https://github.com/jubater/DIY-Tourbox/releases) 
+
 ## About
 
 Unlike many macro pads that emulate a HID (Human Interface Device) keyboard directly on the chip, **NotTourBox** uses a Raw Data (i dnt know what its called) approach:
@@ -30,7 +32,7 @@ Unlike many macro pads that emulate a HID (Human Interface Device) keyboard dire
 
 ###  Pin Mapping
 
-the pins are mapped as follows:
+the pins are mapped as follows:(you can always change the pinouts from the firmware)
 
 | Component | Pin Type | Arduino Pins | Function |
 | :--- | :--- | :--- | :--- |
