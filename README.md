@@ -23,8 +23,8 @@ Unlike many macro pads that emulate a HID (Human Interface Device) keyboard dire
 
 
 ### Components Used:
-* **Microcontroller:** Arduino [Model Name]
-* **Buttons:** 12x Momentary Push Buttons (Tactile switches)
+* **Microcontroller:** Ardunoi Leonardo
+* **Buttons:** 12x  Buttons 
 * **Encoders:** 3x Rotary Encoders (with built-in push switches)
 
 
