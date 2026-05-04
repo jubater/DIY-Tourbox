@@ -1,4 +1,4 @@
-## Not Tourbox v1
+## Not Tourbox 
 
 **Not Tourbox** is a Python application designed to interface with custom Arduino-based macro pads and controllers. It replicates what TourBox and other macro software does.
 
