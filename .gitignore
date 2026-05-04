@@ -1,3 +1,4 @@
+# --- Python Junk ---
 __pycache__/
 *.py[cod]
 *$py.class
@@ -6,3 +7,23 @@ env/
 build/
 dist/
 *.spec
+
+# --- OS Junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Pro Console Specific ---
+# We want to share the structure, but NOT your personal settings
+profiles/*.json
+
+# EXCEPT the default profile (we want people to have a starting point)
+!profiles/default.json
+
+# Ignore your custom created actions/shortcuts
+custom_actions.json
+links.json
+
+# --- Hardware ---
+*.hex
+*.elf
