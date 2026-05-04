@@ -18,7 +18,7 @@ Unlike many macro pads that emulate a HID (Human Interface Device) keyboard dire
 * **Layered Logic:** Supports up to 3 modifier layers (Mod 1, 2, 3), You will understand when you use it. 
 * **Custom Shortcut:** Create custom multi-key macros,
 * **Hardware Support:** Logic for 12 buttons and 3 rotary encoders with click support. Right now only 9 button can be used because of limited pinout, In future I will use a matrix to increase buttons. 
-* **System Tray Integration:** Runs silently in the background while you work.
+* **System Tray Integration:** Runs silently in the background.
 
 ##
 * **GUI:** `CustomTkinter` 
