@@ -13,12 +13,12 @@
 * **GUI:** `CustomTkinter` 
 * **Input Handling:** `pynput`
 * **Communication:** `pyserial`
- **OS Integration:** `pywin32`, `psutil`
+* **OS Integration:** `pywin32`, `psutil`
 
 ### Components Used:
- **Microcontroller:** Arduino [Model Name]
- **Buttons:** 12x Momentary Push Buttons (Tactile switches)
- **Encoders:** 3x Rotary Encoders (with built-in push switches)
+* **Microcontroller:** Arduino [Model Name]
+* **Buttons:** 12x Momentary Push Buttons (Tactile switches)
+* **Encoders:** 3x Rotary Encoders (with built-in push switches)
 
 
 ### 📍 Pin Mapping
