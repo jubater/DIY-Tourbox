@@ -10,7 +10,7 @@ Unlike many macro pads that emulate a HID (Human Interface Device) keyboard dire
  The application listens to the Serial stream and Identifies which application is currently in focus, Looks up the assigned macro for that specific button and app, Simulates the keystrokes or mouse actions using the `pynput` library.
 
  Why this approach?
-* did this because you dont have to re-flash the Arduino code every time to change a shortcut.
+* did this because I dont have to re-flash the Arduino code every time to change a shortcut.
 * there is App Awareness so the console knows whether Photoshop, Blender, or Premiere Pro, and changes its behavior automatically.
 
 ## Features
