@@ -7,10 +7,7 @@
 Unlike many macro pads that emulate a HID (Human Interface Device) keyboard directly on the chip, **NotTourBox** uses a Raw Data (i dnt know what its called) approach:
 
  The Arduino  Acts as a raw input sensor. It constantly monitors the buttons and encoders. When an action occurs, it sends a simple string to the PC.
- The application listens to the Serial stream and
-   - Identifies which application is currently in focus.
-   - Looks up the assigned macro for that specific button and app.
-   - Simulates the keystrokes or mouse actions using the `pynput` library.
+ The application listens to the Serial stream and Identifies which application is currently in focus, Looks up the assigned macro for that specific button and app, Simulates the keystrokes or mouse actions using the `pynput` library.
 
  Why this approach?
 * did this because you dont have to re-flash the Arduino code every time to change a shortcut.
