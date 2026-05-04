@@ -13,8 +13,8 @@ long oldPos3 = 0;
 //BUTTON SETUP 
 const int NUM_BUTTONS = 13;
 // Pins used: 8, 9, 10, 11, 12, 13 and A0, A1, A2, A3, A4, A5 
-int buttonPins[NUM_BUTTONS] = {8, 9, 10, 11, 12, 13, A1, A2, A3, A0, 12, A4, A5}; 
-String buttonNames[NUM_BUTTONS] = {"E1C", "E2C", "E3C", "B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B9", "B10"};
+int buttonPins[NUM_BUTTONS] = {8, 9, 10,    11, 12, 13, A1, A2, A3, A0, A4, A5}; 
+String buttonNames[NUM_BUTTONS] = {"E1C", "E2C", "E3C",     "B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B9", "B10"};
 
 
 
