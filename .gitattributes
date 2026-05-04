@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+__pycache__/
+*.pyc
+profiles/*.json
+!profiles/default.json
+build/
+dist/
+venv/
