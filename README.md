@@ -27,7 +27,7 @@ the pins are mapped as follows:
 
 | Component | Pin Type | Arduino Pins | Function |
 | :--- | :--- | :--- | :--- |
-| **Buttons 1-12** | Digital & Analog input | D[11] - D[13], A[0] - A[5]| Macro Triggers (B1-B12) |
+| **Buttons 1-9** | Digital & Analog input | D[11] - D[13], A[0] - A[5]| Macro Triggers (B1-B12) |
 | **Encoder 1** | Interrupt/Digital | D[2], D[3] | Scroll/Value Adjust (E1) |
 | **Encoder 2** | Interrupt/Digital | D[4], D[5] | Scroll/Value Adjust (E2) |
 | **Encoder 3** | Interrupt/Digital | D[6], D[7] | Scroll/Value Adjust (E3) |
