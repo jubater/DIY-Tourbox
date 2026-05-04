@@ -33,7 +33,7 @@ the pins are mapped as follows:
 | **Encoder 3** | Interrupt/Digital | D[6], D[7] | Scroll/Value Adjust (E3) |
 | **Encoder Clicks**| Digital Input | D[8], D[9], D[10]| Center Clicks (E1C, E2C, E3C) |
 
-*Note: All inputs utilize internal `INPUT_PULLUP` resistors. Wiring should connect the pin to Ground (GND) when the switch is closed.*
+
 
 ### Instructions ###
 1. **Wiring:** Connect one side of each button/encoder pin to the specified Arduino Pin and the other side to GND .
