@@ -1,7 +1,6 @@
 ## DIY Tourbox 
 
-**DIY Tourbox** is a Python application designed to interface with custom Arduino-based macro pads and controllers. It replicates what TourBox and other macro software does.
-This project's target was to build a device like tourbox mainly focused for drawing , but all its features makes it a customizable, one-handed editing controller.
+**DIY Tourbox** This project's target was to build a device like tourbox mainly focused for drawing , but all its features makes it a customizable, one-handed editing controlle. It replicates what TourBox and other macro software does.
 
 ## About
 
