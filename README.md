@@ -21,22 +21,22 @@
 * **Encoders:** 3x Rotary Encoders (with built-in push switches)
 
 
-### 📍 Pin Mapping
+###  Pin Mapping
 
-To ensure high performance and avoid ghosting, the pins are mapped as follows:
+the pins are mapped as follows:
 
 | Component | Pin Type | Arduino Pins | Function |
 | :--- | :--- | :--- | :--- |
-| **Buttons 1-12** | Digital Input | D[X] - D[X] | Macro Triggers (B1-B12) |
-| **Encoder 1** | Interrupt/Digital | D[X], D[X] | Scroll/Value Adjust (E1) |
-| **Encoder 2** | Interrupt/Digital | D[X], D[X] | Scroll/Value Adjust (E2) |
-| **Encoder 3** | Interrupt/Digital | D[X], D[X] | Scroll/Value Adjust (E3) |
-| **Encoder Clicks**| Digital Input | D[X], D[X], D[X]| Center Clicks (E1C, E2C, E3C) |
+| **Buttons 1-12** | Digital & Analog input | D[11] - D[13],A[0] - A[5]| Macro Triggers (B1-B12) |
+| **Encoder 1** | Interrupt/Digital | D[2], D[3] | Scroll/Value Adjust (E1) |
+| **Encoder 2** | Interrupt/Digital | D[4], D[5] | Scroll/Value Adjust (E2) |
+| **Encoder 3** | Interrupt/Digital | D[6], D[7] | Scroll/Value Adjust (E3) |
+| **Encoder Clicks**| Digital Input | D[8], D[9], D[10]| Center Clicks (E1C, E2C, E3C) |
 
 *Note: All inputs utilize internal `INPUT_PULLUP` resistors. Wiring should connect the pin to Ground (GND) when the switch is closed.*
 
-### 🛠️ Assembly Instructions
-1. **Wiring:** Connect one side of each button/encoder pin to the specified Arduino Digital Pin and the other side to a common Ground (GND) rail.
+### Instructions ###
+1. **Wiring:** Connect one side of each button/encoder pin to the specified Arduino Pin and the other side to GND .
 2. **Firmware:** Open `firmware/pro_console/pro_console.ino` in the Arduino IDE.
 3. **Upload:** Select your board and port, then click **Upload**.
 4. **Integration:** Once uploaded, the Python Dashboard will automatically recognize the inputs when the COM port is connected.
