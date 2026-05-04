@@ -16,7 +16,7 @@ Unlike many macro pads that emulate a HID (Human Interface Device) keyboard dire
 ## Features
 * **Auto-Switching Profiles:** Automatically detects the active window (e.g., Photoshop) and swaps hardware mapping instantly.
 * **Layered Logic:** Supports up to 3 modifier layers (Mod 1, 2, 3), You will understand when you use it. 
-* **Custom Shortcut Engine:** Create custom multi-key macros,
+* **Custom Shortcut:** Create custom multi-key macros,
 * **Hardware Support:** Built-in logic for 12 buttons and 3 rotary encoders with click support.
 * **System Tray Integration:** Runs silently in the background while you work.
 
