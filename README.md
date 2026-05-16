@@ -46,6 +46,6 @@ the pins are mapped as follows:(you can always change the pinouts from the firmw
 
 ### Instructions ###
 1. **Wiring:** Connect one side of each button/encoder pin to the specified Arduino Pin and the other side to GND .
-2. **Firmware:** Open `firmware/pro_console/pro_console.ino` in the Arduino IDE.
+2. **Firmware:** Open `firmware/firmware.ino` in the Arduino IDE.
 3. **Upload:** Select your board and port, then click **Upload**.
 4. **Integration:** Once uploaded, the Python Dashboard will automatically recognize the inputs when the COM port is connected.
